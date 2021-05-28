@@ -1,0 +1,113 @@
+Shakiba Alipour (9712814013)
+Antlr Project
+
+//import
+import math ;
+from math import *;
+from root .math import random ;
+from math import power , random ;
+from math import power => random ;
+
+
+//arithmetic computation
+y=-6*(7+ 3/5%3)- 3**4
+
+
+//binary computation
+x=~(2 && 2) || (4>>2)
+
+
+//define variable
+int a ;
+double a = -2.876e23;
+var myVar : int = 25, double = 45.56;
+const array = new Array (1,2,3,4,5);
+var array = new Array [double ];
+
+
+//define class
+protected class myClass extends parent implements trait1 {
+ public boolean flag ;
+}
+
+
+//class instantiation
+boolean flag1 = new firstClass ();
+boolean flag2 = new firstClass (12,14,input,output);
+
+
+//for loop
+for (i = 0;i<1;--i){
+print (i);
+}
+
+
+//for each loop
+for (var input in array ){
+print (input);
+}
+
+
+//while loop
+while (x<5) {
+print ("hello");
+}
+
+
+//do while loop
+do {
+addNumbers (x,-98.09e23);
+x *= 100;
+} while (x<10e10);
+
+
+//if statement
+if (x<=2){
+x++;
+} else if (x>=5) {
+x%=5;
+} else {
+x/=10;
+}
+
+
+//switch case
+switch (x) {
+case 1: x++;
+break;
+case 2: x--;
+break;
+case 3: break;
+default: x**2;
+}
+
+
+//define function
+double first (double x) {
+x++;
+return (x);
+}
+-----------------------------------
+void setX (String input) {
+x=input;
+}
+
+
+//function call
+print_$ (10,"dollars");
+getSystemTime ();
+
+
+//try catch
+try {
+//comment
+} on exp1 catch (variables ) {
+print (exp1);
+}
+------------------------------------
+try {
+/*start of the comment
+the rest of the comment*/
+} catch (variables ) {
+print (exp2);
+}
