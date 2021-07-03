@@ -103,10 +103,10 @@ functionCall: function_name LPAREN parameter_list RPAREN SEMICOLON;
 try_catch: TRY OPENBRACKET NEWLINE
     statement*
     CLOSEBRACKET
-(ON exception_name (CATCH LPAREN variable_name RPAREN )? OPENBRACKET
+(ON exception_name (CATCH LPAREN variable_name RPAREN )? OPENBRACKET NEWLINE
     statement*
     SEMICOLON
-    CLOSEBRACKET)| (CATCH LPAREN variable_name RPAREN OPENBRACKET
+    CLOSEBRACKET) | (CATCH LPAREN variable_name RPAREN OPENBRACKET NEWLINE
     statement*
     CLOSEBRACKET);
 
